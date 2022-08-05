@@ -1,0 +1,106 @@
+.fcontainer {
+    display: flex;
+    height: 200%;
+    border: 2px solid black;
+    background: linear-gradient( to right, rgb(29, 38, 45) 30%, white 15%);
+    flex-wrap: wrap;
+}
+
+.f1container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.f2container {
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+body {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+    border: 2px dotted green;
+    flex-wrap: wrap;
+}
+
+.CV {
+     color: black;
+    display: flex;
+    justify-content: center;
+    border:1px solid black;
+    flex-wrap: wrap;
+    text-align: center;
+   
+}
+
+.Name {
+    color: white;
+    flex-wrap: wrap;
+}
+
+.Contact {
+    color: white;
+    flex-wrap: wrap;
+}
+
+#Phone {
+    width: 270px;
+    color: white;
+    flex-wrap: wrap;
+}
+
+#con {
+    color: white;
+    font-size: large;
+    flex-wrap: wrap;
+}
+
+.Add {
+    font-size: 15px;
+    flex-wrap: wrap;
+}
+
+.row {
+    font-size: large;
+    flex-wrap: wrap;
+}
+
+.Language {
+    color: white;
+    flex-wrap: wrap;
+}
+
+.Hobbies {
+    color: white;
+    flex-wrap: wrap;
+}
+
+.Summary {
+    color: steelblue;
+    flex-wrap: wrap;
+}
+
+.Education {
+    color: steelblue;
+    flex-wrap: wrap;
+}
+
+.Skills {
+    color: steelblue;
+    flex-wrap: wrap;
+}
+
+.Achievements {
+    color: steelblue;
+    flex-wrap: wrap;
+}
